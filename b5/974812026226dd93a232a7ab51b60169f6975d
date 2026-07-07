@@ -1,0 +1,41 @@
+capsh/src/demo.ml
+  s_ec53a19416b7f3::t_2dbbf688b80d00 63-64,67-68,71
+  s_ec53a19416b7f3::t_42f12e846c4f0e 1-62,65-66,69-70,72-73
+capsh/src/cap.mli
+  s_ec53a19416b7f3::t_8f67da624c4848 1-64
+capsh/src/taint.ml
+  s_ec53a19416b7f3::t_e5f02e5cf8a9c0 1-50
+capsh/src/forge_fail.ml
+  s_ec53a19416b7f3::t_0952f20779b7bd 1-9
+CHANGELOG.md
+  s_ec53a19416b7f3::t_d7fc61cb64a246 9-20
+capsh/Makefile
+  s_ec53a19416b7f3::t_13e3922996b560 1-24,26,28-38
+  s_ec53a19416b7f3::t_9d100f968254ac 25,27
+.gitignore
+  s_ec53a19416b7f3::t_1d7a50b718992d 1-7
+capsh/src/broker.ml
+  s_ec53a19416b7f3::t_c213cc48cb0955 1-19
+capsh/README.md
+  s_ec53a19416b7f3::t_a742575511bd5a 1-43
+capsh/src/cap.ml
+  s_ec53a19416b7f3::t_f3e1a2841575b4 1-158
+capsh/src/script_layer.ml
+  s_ec53a19416b7f3::t_ff662093d35539 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b5974812026226dd93a232a7ab51b60169f6975d",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}
