@@ -1,0 +1,27 @@
+DESIGN.md
+  s_ec53a19416b7f3::t_f8869ed523417b 511-542
+  s_ec53a19416b7f3::t_817af342223bc4 123
+  s_ec53a19416b7f3::t_b828f2acecee4e 624-628,631-633
+docs/capsh-language.md
+  s_ec53a19416b7f3::t_7e1e61366941f4 222-223
+  s_ec53a19416b7f3::t_ea9a95e5220922 394-399,401
+  s_ec53a19416b7f3::t_b8cd52c6e1533b 104-145
+CHANGELOG.md
+  s_ec53a19416b7f3::t_9a43d82e1c5a24 10-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "168586b60e1d8e6cc5bdfd11aa1b5f699b0e1d33",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}
