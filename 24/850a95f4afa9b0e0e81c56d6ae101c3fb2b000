@@ -1,0 +1,29 @@
+deploy/stop-broker.sh
+  s_ec53a19416b7f3::t_f1b5b5eb7cb133 1-13
+deploy/README.md
+  s_ec53a19416b7f3::t_8f223ab6464833 1-63
+deploy/build.sh
+  s_ec53a19416b7f3::t_25daee0dd2372d 1-15
+deploy/capable-broker.service
+  s_ec53a19416b7f3::t_656c45c99d2890 1-24
+deploy/run-broker.sh
+  s_ec53a19416b7f3::t_aeaece79839eca 1-36
+.gitignore
+  s_ec53a19416b7f3::t_ce9acbb957278b 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "24850a95f4afa9b0e0e81c56d6ae101c3fb2b000",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}
