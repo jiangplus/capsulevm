@@ -1,0 +1,24 @@
+CHANGELOG.md
+  s_ec53a19416b7f3::t_9f08e56de73d3f 10-14
+crates/capable-rpc/src/proto.rs
+  s_ec53a19416b7f3::t_029e5611422646 216-238
+  s_ec53a19416b7f3::t_c7de5a0d40e23c 9-11,22,24-36,39-45
+crates/capable-rpc/src/main.rs
+  s_ec53a19416b7f3::t_0ea5cec773906c 11-18,26-32,43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "1adeb11f60ded0fd7706fceb29fda0c689e54c4e",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}
