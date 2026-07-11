@@ -1,0 +1,29 @@
+crates/capable-broker/src/os.rs
+  s_ec53a19416b7f3::t_bb6898ea438a59 51-141,145-184
+  s_ec53a19416b7f3::t_58b723b698618e 142-144
+crates/capable-broker/src/lib.rs
+  s_ec53a19416b7f3::t_1f5b5a081eb58d 380,385-386
+  s_ec53a19416b7f3::t_9cc9f64f9a5329 403
+  s_ec53a19416b7f3::t_037103557569f4 931-953
+  s_ec53a19416b7f3::t_88b20eef6609a8 614,620-632
+  s_ec53a19416b7f3::t_930d888f2a2185 633
+  s_ec53a19416b7f3::t_c6c9b23117423c 930
+CHANGELOG.md
+  s_ec53a19416b7f3::t_44486de5a40fa1 33-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "59e91fa5cbf603c5d393e470724f34e18d8a5f9e",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}
