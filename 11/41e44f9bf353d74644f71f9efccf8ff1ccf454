@@ -1,0 +1,23 @@
+crates/capable-rpc/tests/redteam.rs
+  s_ec53a19416b7f3::t_e5a18e7f3e53d4 1-202
+ci.sh
+  s_ec53a19416b7f3::t_8df798dc1b3b9a 1-44
+CHANGELOG.md
+  s_ec53a19416b7f3::t_98c98dfd7d68de 10-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "1141e44f9bf353d74644f71f9efccf8ff1ccf454",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}
