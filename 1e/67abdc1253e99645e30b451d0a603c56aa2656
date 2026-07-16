@@ -1,0 +1,36 @@
+CHANGELOG.md
+  s_ec53a19416b7f3::t_8a6dc29e3cd654 10-14
+crates/capable-broker/src/lib.rs
+  s_ec53a19416b7f3::t_e14fb667e8b5b7 782-784
+  s_ec53a19416b7f3::t_71736c215b6ee4 309,1079-1081,1086-1092,1095-1108,1110
+  s_ec53a19416b7f3::t_beed2839642649 1381-1393
+  s_ec53a19416b7f3::t_8296c92d566a73 257,259-265,278-279,291,298-308,310
+  s_ec53a19416b7f3::t_a8a61e55dd581e 601-603
+  s_ec53a19416b7f3::t_a76c5e3197e7e2 933-934,944-946
+  s_ec53a19416b7f3::t_11ededeba5d729 632-634
+  s_ec53a19416b7f3::t_5010f16b874b49 311
+crates/capable-broker/src/policy.rs
+  s_ec53a19416b7f3::t_9ef8dadf8e2aeb 160-176
+crates/capable-rpc/tests/consent.rs
+  s_ec53a19416b7f3::t_19e25cacaebdcc 135-145
+  s_ec53a19416b7f3::t_11ec48960df06c 50-76
+crates/capable-rpc/src/proto.rs
+  s_ec53a19416b7f3::t_c729709fcc8c72 249-268
+  s_ec53a19416b7f3::t_1f5668270a9847 400,403-404
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "1e67abdc1253e99645e30b451d0a603c56aa2656",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}
