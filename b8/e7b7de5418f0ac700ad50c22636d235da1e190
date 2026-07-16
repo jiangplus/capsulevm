@@ -1,0 +1,23 @@
+crates/capable-broker/src/lib.rs
+  s_ec53a19416b7f3::t_db0857a94c8ee3 1349-1369,1371-1374
+  s_ec53a19416b7f3::t_542d9d918f9764 1370
+  s_ec53a19416b7f3::t_b1f151e23b2b53 915,917-923
+  s_ec53a19416b7f3::t_a1fa3e71156783 1059-1070,1072-1089,1093
+  s_ec53a19416b7f3::t_53f46a14dae3f5 1348
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b8e7b7de5418f0ac700ad50c22636d235da1e190",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}
