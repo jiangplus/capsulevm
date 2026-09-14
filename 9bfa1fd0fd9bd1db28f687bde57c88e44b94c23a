@@ -1,0 +1,38 @@
+crates/capable-broker/src/lib.rs
+  s_ec53a19416b7f3::t_a335a7e6d9e103 182-183,195-196,202-213,219-226
+  s_ec53a19416b7f3::t_2f8ad9ee699a91 260-263
+  s_ec53a19416b7f3::t_d5ddbb39ba2f8a 214-218
+  s_ec53a19416b7f3::t_fe70be660a102b 303
+  s_ec53a19416b7f3::t_ed331d1ad54e52 691-721
+crates/capable-rpc/src/main.rs
+  s_ec53a19416b7f3::t_0390f64082ab6f 8,11
+  s_ec53a19416b7f3::t_b55a89bcf65f0d 26-35,53-58
+  s_ec53a19416b7f3::t_552b8a1219a45b 161
+  s_ec53a19416b7f3::t_616385e673b32f 133-135,138,142,147-151,153,157
+crates/capable-rpc/src/proto.rs
+  s_ec53a19416b7f3::t_af2a3f1dc88959 110-120,122,124,127,131,136
+  s_ec53a19416b7f3::t_919d7bf24a8037 216,221,223-236
+  s_ec53a19416b7f3::t_0d27d34c5f178b 4
+CHANGELOG.md
+  s_ec53a19416b7f3::t_63d2df6deccd76 10-18
+crates/capable-broker/src/audit.rs
+  s_ec53a19416b7f3::t_62023b8c389077 64-79
+capsh/Makefile
+  s_ec53a19416b7f3::t_95d33978d481d3 37,45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "9bfa1fd0fd9bd1db28f687bde57c88e44b94c23a",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

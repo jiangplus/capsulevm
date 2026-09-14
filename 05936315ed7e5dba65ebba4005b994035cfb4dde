@@ -1,0 +1,23 @@
+CHANGELOG.md
+  s_ec53a19416b7f3::t_fc7c423648dc98 10-17
+crates/capable-broker/src/audit.rs
+  s_ec53a19416b7f3::t_357ed80384e2d2 2-3,5-14,19,23,25-69,73,76-88,90,92,96,103,115-116,121-124,127,129-132,141-143
+crates/capable-broker/src/lib.rs
+  s_ec53a19416b7f3::t_a3bab738b5ca66 757-794
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "05936315ed7e5dba65ebba4005b994035cfb4dde",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

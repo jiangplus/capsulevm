@@ -1,0 +1,19 @@
+docs/apart-sprint-2026/report.md
+  s_950830f3daff21::t_9a6f841acb085f 33-34,102-118,152-169
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4d0d5199d0423139dd4680cdceff8ee11fdb467c",
+  "prompts": {},
+  "sessions": {
+    "s_950830f3daff21": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c460a301-279f-4c93-9869-92bf24baf4dd",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

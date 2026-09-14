@@ -1,0 +1,29 @@
+deploy/README.md
+  s_ec53a19416b7f3::t_9c419b41d7a85f 6-10
+  s_ec53a19416b7f3::t_33dc3c13e672a9 55-60
+  s_ec53a19416b7f3::t_fabfedc0fad5ab 69-73
+deploy/capable-guest.service
+  s_ec53a19416b7f3::t_9304cc633aeb07 1-32
+crates/capable-broker/src/os.rs
+  s_ec53a19416b7f3::t_1e78409b983e1b 373-374
+  s_ec53a19416b7f3::t_5eb9f8d2910673 173,175-186,188-190,195,200,202,207-218
+  s_ec53a19416b7f3::t_1dea4f34d68941 250-252,259-262,267-278
+CHANGELOG.md
+  s_ec53a19416b7f3::t_c4cd6c9f3d660f 33-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "214924a238f01c32328ad0eafc0ce36198c63e9d",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

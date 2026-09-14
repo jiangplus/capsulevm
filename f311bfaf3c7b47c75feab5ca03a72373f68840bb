@@ -1,0 +1,25 @@
+crates/capable-broker/src/capvm.rs
+  s_ec53a19416b7f3::t_5071c92a1d7c6b 1-185
+crates/capable-broker/src/lib.rs
+  s_ec53a19416b7f3::t_50617c3fb27ff3 8
+docs/syscall-abi.md
+  s_ec53a19416b7f3::t_1e824a3e98bbd4 1-52
+CHANGELOG.md
+  s_ec53a19416b7f3::t_aeef5e64450f47 10-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "f311bfaf3c7b47c75feab5ca03a72373f68840bb",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

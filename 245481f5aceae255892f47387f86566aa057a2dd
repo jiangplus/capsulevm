@@ -1,0 +1,26 @@
+capsh/src/remote_demo.ml
+  s_ec53a19416b7f3::t_8cfcad4a20481b 1-50
+capsh/src/rpc_client.ml
+  s_ec53a19416b7f3::t_adc02a43df1187 1-144
+capsh/Makefile
+  s_ec53a19416b7f3::t_b8cee8657f05fc 8,10
+  s_ec53a19416b7f3::t_aa3e40cf709ba7 26-41
+CHANGELOG.md
+  s_ec53a19416b7f3::t_83015788a8d3c2 10-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "245481f5aceae255892f47387f86566aa057a2dd",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

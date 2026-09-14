@@ -1,0 +1,25 @@
+ci.sh
+  s_ec53a19416b7f3::t_7963e262dcb5d7 26-31
+deploy/README.md
+  s_ec53a19416b7f3::t_bd03aff4f97d48 40-60
+CHANGELOG.md
+  s_ec53a19416b7f3::t_a5bbf66c42db71 22
+crates/capable-rpc/tests/consent.rs
+  s_ec53a19416b7f3::t_94550d8f77e2d9 1-131
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "b2a45b201cf85c0b5ea413c0d5f534abde98c068",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

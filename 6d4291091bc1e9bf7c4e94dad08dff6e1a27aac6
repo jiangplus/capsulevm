@@ -1,0 +1,19 @@
+crates/capable-broker/src/audit.rs
+  s_ec53a19416b7f3::t_0f47042a8db52d 80-82,84-88,95-96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "6d4291091bc1e9bf7c4e94dad08dff6e1a27aac6",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

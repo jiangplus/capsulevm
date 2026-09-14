@@ -1,0 +1,24 @@
+docs/capvm-report.md
+  s_ec53a19416b7f3::t_0d5c7abf8725dd 79-90
+crates/capable-broker/src/lib.rs
+  s_ec53a19416b7f3::t_e579f567c83cac 914-919
+  s_ec53a19416b7f3::t_56d00376d87394 1035-1068
+crates/capable-broker/src/capvm.rs
+  s_ec53a19416b7f3::t_d41f19ee2b1fa3 12,14-25,31-33,36-38,40-43,46-47,50,52,57-64,66-69,71-76,78-81,84-87,90-92,95-97,101-103,105-106,108-116,120-123,125-127,129-131,133-136,139,160,162-163,172-173,175,178-179,181,189,192-193,197-199,201,205-206,210-211,213-224,227,232-234,238-240,248-255
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "c7b799a6c05bac142e9e6551d38657efef9aff6c",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

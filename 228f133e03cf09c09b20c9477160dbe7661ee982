@@ -1,0 +1,49 @@
+CHANGELOG.md
+  s_ec53a19416b7f3::t_bcb88b91621434 10-16
+capsh/src/broker.ml
+  s_ec53a19416b7f3::t_bead11f58931b3 17-20
+capsh/src/lexer.ml
+  s_ec53a19416b7f3::t_c4160dd8531d26 105
+  s_ec53a19416b7f3::t_e6895658786c66 7
+capsh/src/parser.ml
+  s_ec53a19416b7f3::t_795579926890c2 98-105,107-121
+  s_ec53a19416b7f3::t_bdfa98ad03dac5 24
+capsh/src/eval.ml
+  s_ec53a19416b7f3::t_95c006985a77f5 46-63
+  s_ec53a19416b7f3::t_441f5bc7bffd75 121-125
+  s_ec53a19416b7f3::t_78a5c5a1c59231 84-95
+capsh/Makefile
+  s_ec53a19416b7f3::t_5db36363c28393 36-38
+capsh/examples/command.capsh
+  s_ec53a19416b7f3::t_06a2cd3a46415a 1-18
+capsh/src/ast.ml
+  s_ec53a19416b7f3::t_92c78ee9bf56c8 15-16
+capsh/src/cap.mli
+  s_ec53a19416b7f3::t_047c351a44a75d 83-84
+  s_ec53a19416b7f3::t_eb974d0413b222 25,28
+  s_ec53a19416b7f3::t_1057048110ffe1 49-54
+capsh/src/cap.ml
+  s_ec53a19416b7f3::t_722dbb61c86fad 24-25
+  s_ec53a19416b7f3::t_6130abf353bf49 190,193
+  s_ec53a19416b7f3::t_9ae8caf5d1b654 205,209-214
+  s_ec53a19416b7f3::t_c082809f111346 104-140
+capsh/README.md
+  s_ec53a19416b7f3::t_c6fdc0a2bc1b26 29-35
+  s_ec53a19416b7f3::t_3a31003810373e 5-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "228f133e03cf09c09b20c9477160dbe7661ee982",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

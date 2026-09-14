@@ -1,0 +1,31 @@
+CHANGELOG.md
+  s_ec53a19416b7f3::t_51dff65e568d08 21
+  s_ec53a19416b7f3::t_5e5675e67fac7d 9-17
+DESIGN.md
+  s_ec53a19416b7f3::t_f1a2fc77a1206f 16-17,103,114,132,145,154,349,419,428
+  s_ec53a19416b7f3::t_73edcea41bfc39 578
+  s_ec53a19416b7f3::t_7d922b76f9b419 136
+  s_ec53a19416b7f3::t_12ad4983858ed5 120
+  s_ec53a19416b7f3::t_2043cd14aeffe6 123
+  s_ec53a19416b7f3::t_d7554d9bf8bf75 283-285
+  s_ec53a19416b7f3::t_d771d806592445 583-591,593-596
+  s_ec53a19416b7f3::t_ec5f67976db3d7 128
+docs/capsh-language.md
+  s_ec53a19416b7f3::t_0a2209fea50ccd 1-356
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "85f5a3f35a4a2e18e73b2ec0c0cebb7a2b4c9ae6",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

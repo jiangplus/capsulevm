@@ -1,0 +1,24 @@
+crates/capable-broker/src/os.rs
+  s_950830f3daff21::t_b634d5d4e70e73 560
+crates/capable-broker/src/lib.rs
+  s_950830f3daff21::t_32e84a69048c68 227,245-266,771-775,1612-1627
+  s_950830f3daff21::t_7bf350db6b2ecb 1628
+CHANGELOG.md
+  s_950830f3daff21::t_a857162a6cc702 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "443ae8dbc8cf7d05aef4653f9b3542ebec68234d",
+  "prompts": {},
+  "sessions": {
+    "s_950830f3daff21": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c460a301-279f-4c93-9869-92bf24baf4dd",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

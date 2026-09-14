@@ -1,0 +1,23 @@
+crates/capable-rpc/tests/redteam.rs
+  s_ec53a19416b7f3::t_7b1c6e3c3750ab 113,118-119,125,127-128,130,139-159,163-168
+  s_ec53a19416b7f3::t_80a98e5478083a 201,203,206-207
+  s_ec53a19416b7f3::t_a45927ba129df2 72-108
+  s_ec53a19416b7f3::t_a31b154f2b4cf5 223-243
+  s_ec53a19416b7f3::t_6c9e14aee23b12 278-331
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "c8c756cfdb05b92e593b527ccd11e23157077e5f",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

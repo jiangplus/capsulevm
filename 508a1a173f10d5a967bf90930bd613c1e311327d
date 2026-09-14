@@ -1,0 +1,38 @@
+crates/capable-broker/src/lib.rs
+  s_ec53a19416b7f3::t_42e578982c50db 227,234-238
+  s_ec53a19416b7f3::t_588d2ee134e51b 181,192-202
+  s_ec53a19416b7f3::t_3604888294545d 7,14,16-18
+  s_ec53a19416b7f3::t_3d561a4bda62d0 642-662
+  s_ec53a19416b7f3::t_18bb573ccebf93 221-225,229-231
+  s_ec53a19416b7f3::t_d1dfa36e33274d 641
+CHANGELOG.md
+  s_ec53a19416b7f3::t_944854420b6fda 10-15
+crates/README.md
+  s_ec53a19416b7f3::t_ce3db8a3c0fccc 5-6
+crates/capable-rpc/src/main.rs
+  s_ec53a19416b7f3::t_ea3995bc450d9f 103
+  s_ec53a19416b7f3::t_a2da5b9414355a 22,36,38-42
+  s_ec53a19416b7f3::t_6d151045a8e728 172,184-187,191-195
+  s_ec53a19416b7f3::t_6aa81e6d7b2a11 207,211
+  s_ec53a19416b7f3::t_6056ebbe858e86 7,13
+crates/capable-rpc/src/proto.rs
+  s_ec53a19416b7f3::t_3e23376c93cd42 184-185
+crates/capable-broker/src/audit.rs
+  s_ec53a19416b7f3::t_82619c439c2356 1-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "508a1a173f10d5a967bf90930bd613c1e311327d",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}

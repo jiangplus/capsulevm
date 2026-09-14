@@ -1,0 +1,19 @@
+crates/capable-rpc/src/main.rs
+  s_ec53a19416b7f3::t_05d0cd63dcf064 220-233,235
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "dfaeac87abb8dc590a3721ef88f84b707065dd85",
+  "prompts": {},
+  "sessions": {
+    "s_ec53a19416b7f3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b54a7333-fa18-410b-8b5b-44921a08ff2b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}
