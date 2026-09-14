@@ -1,0 +1,27 @@
+# hello.capsh — capsh slice 2 示例。演示能力语言的核心语义。
+
+# 1) 授予 workspace 根能力(默认策略:project 污点)
+let repo = grant dir "examples/workspace" {read, write}
+print(repo.describe())
+
+# 2) quasi-literal 安全构造路径,读文件(指名即授权)
+let who = "main"
+let content = repo.read(path`${who}.ml`)
+print(content)
+
+# 3) 衰减:收窄到 src 子目录 + 只读(单向)
+let src = repo.sub("src").readonly()
+print(src.describe())
+print(src.read(path`note.txt`))
+
+# 4) 授予一个敏感库(显式 {read, secret} => Secret 污点),读出密钥
+let vault = grant dir "examples/workspace/src" {read, secret}
+let key = vault.read(path`secret.txt`)
+print(key)
+
+# 5) 外发 sink:普通 project 数据可发
+let out = grant sink "https://collector.example.com"
+out.send(content)
+
+# 6) 但 secret 污点数据流入外发 sink —— 语言层 confinement 拒绝(下一行会终止程序)
+out.send(key)

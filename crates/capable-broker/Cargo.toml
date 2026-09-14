@@ -1,0 +1,7 @@
+[package]
+name = "capable-broker"
+version = "0.1.0"
+edition = "2021"
+
+# 零外部依赖:纯 std。
+[dependencies]

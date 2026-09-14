@@ -1,0 +1,18 @@
+# command.capsh — CommandCap:一命令一卡、固定 argv、绑定 cwd、无 shell(D9)。
+
+let repo = grant dir "examples/workspace" {read}
+
+# 1) 授予一张具体命令卡:固定 argv,cwd 绑定到 repo,env 已剥离
+let hello = grant command sh`echo hello-from-capvm` { cwd: repo }
+print(run(hello))
+
+# 2) shell 注入防护:msg 是不可信数据,含 shell 元字符
+let msg = "oops; rm -rf /; echo pwned"
+let echo2 = grant command sh`echo ${msg}` { cwd: repo }
+# ${msg} 作为【单个】argv 元素传给 echo(execvpe,无 shell)——
+# 元字符被原样打印,绝不会被解释执行:
+print(run(echo2))
+
+# 3) 命令输出是 Yellow(本地确定性工具输出),可作事实参考
+let files = grant command sh`ls` { cwd: repo }
+print(run(files))

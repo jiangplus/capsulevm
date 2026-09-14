@@ -1,0 +1,32 @@
+# systemd 单元模板:Capable guest Broker(不可信面)。
+# 关键隔离要求(newton C1 复审):guest 面必须以【独立于 control 面的专用非特权 uid】运行,
+# 使 CommandCap 派生出的 exec 子进程与 control-plane Broker 天然不同 uid —— L1 沙箱内的
+# seccomp 已禁掉 ptrace/pidfd/process_vm_* 作纵深防御,但真正的进程隔离保证来自不同 uid。
+# 因此:User=capable-guest 必须 != control 面的 User=capable。
+#
+# 安装:useradd -r -s /usr/sbin/nologin capable-guest;改路径;拷到 /etc/systemd/system/;
+#       systemctl daemon-reload && systemctl enable --now capable-guest
+[Unit]
+Description=Capable capability Broker (guest / untrusted plane)
+After=network.target
+
+[Service]
+Type=simple
+# 专用 uid,必须不同于 control 面 —— 这是 exec 子进程与控制面之间的进程隔离边界
+User=capable-guest
+Group=capable-guest
+WorkingDirectory=/opt/capable
+# --workspace 限定 guest 初始 authority 根;guest 面无任何 mint verb
+ExecStart=/opt/capable/target/release/capable-rpc serve /run/capable/guest.sock --workspace /srv/capable-workspace --audit-log /var/lib/capable-guest/guest-audit.log
+Restart=on-failure
+RuntimeDirectory=capable
+StateDirectory=capable-guest
+# guest Broker 自身也加固:无提权、系统只读、仅审计目录 + workspace 可写
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/capable-guest /srv/capable-workspace
+# 网络面:guest Broker 本身不需外连(HttpCap 属 control 面 mint);可进一步 netns 隔离
+PrivateNetwork=false
+
+[Install]
+WantedBy=multi-user.target

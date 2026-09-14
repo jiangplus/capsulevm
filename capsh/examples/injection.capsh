@@ -1,0 +1,13 @@
+# injection.capsh — 演示 quasi-literal 从语法层杀死路径注入。
+# 攻击者控制的数据即便拼进 path,也只能是一个安全路径段,无法逃逸能力根。
+
+let repo = grant dir "examples/workspace" {read}
+
+# 正常:单一路径段,OK
+print(repo.read(path`main.ml`))
+
+# 攻击:evil 是一段不可信数据(想穿越到 /etc/passwd)
+let evil = "../../etc/passwd"
+
+# path`${evil}` 的插值不是「单一安全路径段」(含 /)=> 语言层直接拒绝,程序终止
+print(repo.read(path`${evil}`))

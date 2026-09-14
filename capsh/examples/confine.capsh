@@ -1,0 +1,21 @@
+# confine.capsh — 区室(compartment)与 spawn 委托。
+
+let repo = grant dir "examples/workspace" {read, write}
+
+# 1) spawn:子主体默认零权限,只拿显式衰减委托的能力(这里只给只读 src)
+spawn "linter" with { src: repo.sub("src").readonly() } {
+  print(src.read(path`note.txt`))
+  # 这里看不到 repo、看不到任何外发 sink、也无法写 —— 结构上零权限之外一无所有
+}
+
+# 2) confine reader:持有敏感读,但【无】外发 sink —— 合法
+let vault = grant dir "examples/workspace/src" {read, secret}
+confine "reader" with { v: vault } {
+  print(v.read(path`secret.txt`))
+}
+
+# 3) confine 违规:同一区室同时持有敏感读(Secret)+ 外发 sink —— 结构性拒绝(终止)
+let out = grant sink "https://collector.example.com"
+confine "leaky" with { v: vault, net: out } {
+  print(v.read(path`secret.txt`))
+}

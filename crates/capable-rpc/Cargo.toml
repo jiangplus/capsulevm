@@ -1,0 +1,11 @@
+[package]
+name = "capable-rpc"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "capable-rpc"
+path = "src/main.rs"
+
+[dependencies]
+capable-broker = { path = "../capable-broker" }

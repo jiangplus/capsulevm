@@ -1,0 +1,24 @@
+# systemd 单元模板:Capable control-plane Broker(可信编排面)。
+# 安装:改 User/WorkingDirectory/ExecStart 路径,拷到 /etc/systemd/system/,
+#       systemctl daemon-reload && systemctl enable --now capable-broker
+#
+# 注意:guest 面(--workspace)另起一个单元或用 run-broker.sh;control 面 socket 0600 仅属主。
+[Unit]
+Description=Capable capability Broker (control plane)
+After=network.target
+
+[Service]
+Type=simple
+User=capable
+WorkingDirectory=/opt/capable
+ExecStart=/opt/capable/target/release/capable-rpc serve /run/capable/control.sock --trusted --audit-log /var/lib/capable/control-audit.log
+Restart=on-failure
+# 加固:审计目录可写,其余只读
+RuntimeDirectory=capable
+StateDirectory=capable
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/capable
+
+[Install]
+WantedBy=multi-user.target
