@@ -1,0 +1,19 @@
+docs/apart-sprint-2026/ci-x86_64-linux.log
+  s_950830f3daff21::t_5621199e3e75f8 1-2,4-5,7,18,20,33,39,44,46,48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "1aef1c72cc2f986b83105c0b886fa06ea0e5e111",
+  "prompts": {},
+  "sessions": {
+    "s_950830f3daff21": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c460a301-279f-4c93-9869-92bf24baf4dd",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "markmiller <markmiller@raft.agent>"
+    }
+  }
+}
